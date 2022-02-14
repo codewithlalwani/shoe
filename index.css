@@ -1,0 +1,177 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+#nav{
+  height:50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 35px;
+}
+
+#nav #d{
+  display: flex;
+  justify-content: space-around;
+  width: 16%;
+}
+
+#nav a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#nav #icon img{
+  height: 50px;
+  width: 80px;
+}
+
+#up{
+  height: 70%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+#center{
+  width: 40%;
+  background-repeat: no-repeat;
+  background-image: url(https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c2hvZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+}
+
+#up #color{
+  width: 8%;
+  background-image: linear-gradient(red, yellow);
+}
+
+#left{
+  width: 26%;
+  
+  background-color: black;
+}
+
+#right{
+  width: 26%;
+ 
+  background-color: black;
+}
+
+#q h2{
+  color: aliceblue;
+  margin-left: 20px;
+  margin-top: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+#q h6{
+  color: aliceblue;
+  margin-top: 90%;
+  margin-left:3%;
+  font-weight: lighter;
+}
+
+#down{
+  background-color: blue;
+  height: 23%;
+  display: flex;
+}
+
+#down #dl{
+  background-color: black;
+   height: 100%;
+   width: 74%;
+}
+
+#down #dl h1{
+ 
+   font-size: 75px;
+  color: aliceblue;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#down #dr {
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-image: url("images.jfif");
+  height: 100%;
+  width: 26%;
+}
+
+#t{
+  margin-top: -40px;
+  margin-left: 630px;
+  width: 450px;
+  height:30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+#box1{
+ 
+  height: 30px;
+  width: 200px;
+  background-color: aliceblue;
+  border-style: solid;
+  border-color: white;
+  border-radius: 50px;
+  text-align: center;
+  background-color: transparent;
+}
+
+#box1 h5{
+  margin-top: 3%;
+  color: aliceblue;
+}
+
+#box2{
+ 
+  height: 30px;
+  width: 200px;
+  background-color: aliceblue;
+  border-style: solid;
+  border-color: white;
+  border-radius: 50px;
+  text-align: center;
+  background-color: transparent;
+}
+
+#box2 h5{
+  margin-top: 3%;
+  color: aliceblue;
+}
+
+#right #d{
+  margin-top: 40%;
+  margin-left: 30%;
+ 
+}
+
+#right #d img{
+  width:200px;
+  height: 180px;
+  border-style: solid;
+  border-color: silver;
+  border-width: 17px;
+}
